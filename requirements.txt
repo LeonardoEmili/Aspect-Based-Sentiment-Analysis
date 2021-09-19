@@ -8,6 +8,6 @@ jsonlines==2.0.0
 transformers==4.9.1
 pytorch-lightning==1.4.1
 torchtext==0.10.0
-nltk==3.2.5
+nltk==3.4.5
 axial-positional-embedding==0.2.1
 pytorch-crf==0.7.2
