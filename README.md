@@ -60,7 +60,7 @@ You may download the original dataset from [here](https://github.com/SapienzaNLP
 To speed up the training process, we freeze BERT embeddings and employ mixed-precision training. However, we suggest not using them if you notice a considerable drop in the performance.
 
 ### Using word-level BERT embeddings
-To obtain word-level representations, we implement functions to efficiently compute Wordpiece masks as well as the scatter operation itself. However, its batched version is **slow**. For this reason, we highly encourage you to rely on ad-hoc solutions such as [pytorch-scatter](https://pytorch-scatter.readthedocs.io/) or to get inspired by AllenNLP's [approach](https://docs.allennlp.org/main/api/modules/token_embedders/pretrained_transformer_mismatched_embedder/).
+To obtain word-level representations, we implement functions to efficiently compute Wordpiece masks as well as the scatter operation itself. However, its batched version is **slow**. For this reason, we highly encourage you to rely on ad-hoc solutions such as [pytorch-scatter](https://pytorch-scatter.readthedocs.io/) or get inspired by AllenNLP's [approach](https://docs.allennlp.org/main/api/modules/token_embedders/pretrained_transformer_mismatched_embedder/).
 
 ## Test the model
 For ready-to-go usage, simply run the notebook on Colab. In case you would like to test it on your local machine, please follow the [installation guide](https://github.com/SapienzaNLP/nlp2021-hw2#requirements).
