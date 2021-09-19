@@ -1,6 +1,6 @@
 # Aspect-Based Sentiment Analysis
 
-[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LeonardoEmili/Word-in-Context/blob/main/hw2/stud/notebook.ipynb)
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LeonardoEmili/Aspect-Based-Sentiment-Analysis/blob/main/hw2/stud/notebook.ipynb)
 
 Aspect-Based Sentiment Analysis (ABSA) is a complex classification pipeline consisting of the following steps: aspect terms extraction (A), aspect polarities identification (B), category terms extraction (C), category polarities identification (D).
 
