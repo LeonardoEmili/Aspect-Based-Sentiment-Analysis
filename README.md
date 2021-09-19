@@ -6,7 +6,7 @@ Aspect-Based Sentiment Analysis (ABSA) is a complex classification pipeline cons
 
 ## Architecture details
 We propose a multistep classifier to learn all the tasks in parallel in a *multitask-learning* fashion. Along these lines, we employ *linear* task-specific output heads to get the most from the shared latent representation of the input sentences.
-For further insights, read the dedicated [report](https://github.com/LeonardoEmili/Aspect-Based-Sentiment-Analysis/blob/main/report.pdf) or the [presentation slides](https://github.com/LeonardoEmili/Aspect-Based-Sentiment-Analysis/blob/main/slides.pdf) (pages 2-6).
+For further insights, read the dedicated [report](https://github.com/LeonardoEmili/Aspect-Based-Sentiment-Analysis/blob/main/report.pdf) or the [presentation slides](https://github.com/LeonardoEmili/Aspect-Based-Sentiment-Analysis/blob/main/slides.pdf) (pages 7-14).
 
 ![architecure diagram](diagram.png)
 
@@ -18,13 +18,11 @@ A benchmark showing the performance of the multistep classifier against individu
 <tr class="odd">
 <td style="text-align: left;" rowspan="2">Model</td>
 <td style="text-align: center;" colspan="2">Aspects</td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;" colspan="2">Categories <span class="math inline"><sup>(<em>Φ</em><sub><em>r</em><em>e</em><em>s</em><em>t</em><em>a</em><em>u</em><em>r</em><em>a</em><em>n</em><em>t</em></sub>)</sup></span></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><span class="math inline"><em>F</em><sub>1</sub><sup><em>m</em><em>a</em><em>c</em><em>r</em><em>o</em></sup></span></td>
 <td style="text-align: center;"><span class="math inline"><em>F</em><sub>1</sub><sup><em>m</em><em>i</em><em>c</em><em>r</em><em>o</em></sup></span></td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"><span class="math inline"><em>F</em><sub>1</sub><sup><em>m</em><em>a</em><em>c</em><em>r</em><em>o</em></sup></span></td>
 <td style="text-align: center;"><span class="math inline"><em>F</em><sub>1</sub><sup><em>m</em><em>i</em><em>c</em><em>r</em><em>o</em></sup></span></td>
 </tr>
@@ -32,7 +30,6 @@ A benchmark showing the performance of the multistep classifier against individu
 <td style="text-align: left;">Aspect classifier</td>
 <td style="text-align: center;">41.25</td>
 <td style="text-align: center;">60.16</td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;">-</td>
 <td style="text-align: center;">-</td>
 </tr>
@@ -40,7 +37,6 @@ A benchmark showing the performance of the multistep classifier against individu
 <td style="text-align: left;">Category classifier</td>
 <td style="text-align: center;">-</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;">38.23</td>
 <td style="text-align: center;">49.12</td>
 </tr>
@@ -48,7 +44,6 @@ A benchmark showing the performance of the multistep classifier against individu
 <td style="text-align: left;">Multistep classifier</td>
 <td style="text-align: center;"><strong>50.04</strong></td>
 <td style="text-align: center;"><strong>65.02</strong></td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"><strong>55.00</strong></td>
 <td style="text-align: center;"><strong>66.47</strong></td>
 </tr>
